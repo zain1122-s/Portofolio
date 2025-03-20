@@ -1,0 +1,205 @@
+@import "mixin";
+
+.Services {
+  background-color: #1f242d;
+  height: 98vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+
+  .mainclass-1 {
+    width: 83%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+    background-color: #1f242d;
+    margin: 0 auto; // Center the div and give equal space from right and left
+  }
+
+  .mainup {
+    display: flex;
+    justify-content: space-between;
+
+    .d1 {
+      width: 350px;
+      height: 45vh;
+      background-color: #313b4e;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 40px;
+      align-items: center;
+      border-radius: 40px;
+      
+      &:hover {
+        border: 0.2rem solid #50dfe9;
+        transition: background-color 1s, color 1s;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        transform: scale(1.1);
+      }
+      .btn-d1 {
+        background-color: #50dfe9;
+        border: none;
+        width: 150px;
+        height: 45px;
+        border-radius: 20px;
+        color: #1f242d;
+        font-size: 1.1rem;
+        font-weight: bold;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(11, 239, 255, 0.5);
+      
+        &:hover {
+          @include allcss;
+        }
+      }
+    }
+
+    .d2 {
+      width: 350px;
+      height: 45vh;
+      background-color: #313b4e;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 40px;
+      align-items: center;
+      border-radius: 40px;
+      &:hover{
+        @include cardcss
+      }
+      .btn-d1 {
+        background-color: #50dfe9;
+        border: none;
+        width: 150px;
+        height: 45px;
+        border-radius: 20px;
+        color: #1f242d;
+        font-size: 1.1rem;
+        font-weight: bold;
+        &:hover {
+          @include allcss;
+        }
+      }
+    }
+
+    .d3 {
+      width: 350px;
+      height: 45vh;
+      background-color: #313b4e;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 30px;
+      align-items: center;
+      border-radius: 40px;
+      &:hover{
+        @include cardcss
+      }
+      .btn-d1 {
+        background-color: #50dfe9;
+        border: none;
+        width: 150px;
+        height: 45px;
+        border-radius: 20px;
+        color: #1f242d;
+        font-size: 1.1rem;
+        font-weight: bold;
+        &:hover {
+          @include allcss;
+        }
+      }
+    }
+
+    .d33 {
+      width: 350px;
+      height: 45vh;
+      background-color: #313b4e;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 30px;
+      align-items: center;
+      border-radius: 40px;
+      &:hover{
+        @include cardcss
+      }
+      .btn-d1 {
+        background-color: #50dfe9;
+        border: none;
+        width: 150px;
+        height: 45px;
+        border-radius: 20px;
+        color: #1f242d;
+        font-size: 1.1rem;
+        font-weight: bold;
+        &:hover {
+          @include allcss;
+        }
+      }
+    }
+  }
+
+  .maindn {
+    display: flex;
+    justify-content: space-evenly;
+
+    .d4 {
+      width: 600px;
+      height: 30vh;
+      border-radius: 40px;
+      background-color: #313b4e;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 20px;
+      align-items: center;
+      &:hover{
+        @include cardcss
+      }
+      .btn-d1 {
+        background-color: #50dfe9;
+        border: none;
+        width: 150px;
+        height: 45px;
+        border-radius: 20px;
+        color: #1f242d;
+        font-size: 1.1rem;
+        font-weight: bold;
+        &:hover {
+          @include allcss;
+        }
+      }
+    }
+
+    .d5 {
+      width: 600px;
+      height: 30vh;
+      border-radius: 40px;
+      background-color: #313b4e;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 20px;
+      align-items: center;
+      &:hover{
+        @include cardcss
+      }
+      .btn-d1 {
+        background-color: #50dfe9;
+        border: none;
+        width: 150px;
+        height: 45px;
+        border-radius: 20px;
+        color: #1f242d;
+        font-size: 1.1rem;
+        font-weight: bold;
+        &:hover {
+          @include allcss;
+        }
+      }
+    }
+  }
+}

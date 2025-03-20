@@ -1,0 +1,86 @@
+// @import "mixed";
+
+// .port{
+//     background-color:  #313b4e;     
+//     height: 90vh;
+//     width: 100vw;
+//     display: flex;
+//     flex-direction: column;
+//     align-items:center;
+//     gap: 20px;
+//     .port-1{
+//         width: 100%;
+//         max-width: 1600px;
+//         height: 80vh;
+//         display: flex;
+//         flex-direction: column;
+//         align-items: center;
+//         justify-content: space-between;
+    
+
+//         .port-1-1{
+//             width: 100%;
+//             height: 50%;
+//             display: flex;
+//             justify-content: space-between;
+            
+            
+//            .prj1{
+
+//             .img1{
+//                 width: 350px;
+//                 height: 500px;
+//                 border-radius: 20px;
+                
+//             }
+//              .intro{
+//                 height: 200px;
+//                 width: 350px;
+//                 padding: 6px;
+//                 box-sizing: border-box;
+//                 position: absolute;
+//                 bottom: 330px;
+//              }
+//             @include cards
+
+          
+//             }
+          
+            
+//            } 
+//               .prj2{
+                
+//                 @include cards
+//               }
+//                 .prj3{
+//                 @include cards
+//                 }
+
+//         }
+
+//         .port-1-2{
+//             width: 100%;
+//             height: 50%;
+//             display: flex;
+//             justify-content: space-around;
+           
+
+//             .prj4{
+//                 @include cards
+//             }
+//             .prj5{
+//                 @include cards
+//             }
+//         }
+//     }
+
+
+
+    
+
+// .img1{
+//     width: 100%;
+//     height: 100%;
+//     background-size:contain ;
+//     background-position: center;
+// }

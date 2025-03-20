@@ -1,0 +1,17 @@
+@mixin allcss{
+    border-radius: 1px solid #50dfe9;
+    transition: background-color 0.3s, color 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 0 12px 40px rgba(69, 230, 241, 0.7); // Enhance shadow on hover
+}
+
+
+@mixin cardcss{
+    border: 0.2rem solid #50dfe9;
+    transition: background-color 1s, color 1s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(11, 239, 255, 0.5);
+}
+

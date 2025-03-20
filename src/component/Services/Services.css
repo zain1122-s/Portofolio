@@ -1,0 +1,224 @@
+.Services {
+  background-color: #1f242d;
+  height: 98vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.Services .mainclass-1 {
+  width: 83%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  gap: 90px;
+  background-color: #1f242d;
+  margin: 0 auto;
+}
+.Services .mainup {
+  display: flex;
+  justify-content: space-between;
+}
+.Services .mainup .d1 {
+  width: 350px;
+  height: 45vh;
+  background-color: #313b4e;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 40px;
+  align-items: center;
+  border-radius: 40px;
+}
+.Services .mainup .d1:hover {
+  border: 0.2rem solid #50dfe9;
+  transition: background-color 1s, color 1s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: scale(1.1);
+}
+.Services .mainup .d1 .btn-d1 {
+  background-color: #50dfe9;
+  border: none;
+  width: 150px;
+  height: 45px;
+  border-radius: 20px;
+  color: #1f242d;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+.Services .mainup .d1 .btn-d1:hover {
+  border-radius: 1px solid #50dfe9;
+  transition: background-color 0.3s, color 0.3s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: scale(1.1);
+}
+.Services .mainup .d2 {
+  width: 350px;
+  height: 45vh;
+  background-color: #313b4e;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 40px;
+  align-items: center;
+  border-radius: 40px;
+}
+.Services .mainup .d2:hover {
+  border: 0.2rem solid #50dfe9;
+  transition: background-color 1s, color 1s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: scale(1.1);
+}
+.Services .mainup .d2 .btn-d1 {
+  background-color: #50dfe9;
+  border: none;
+  width: 150px;
+  height: 45px;
+  border-radius: 20px;
+  color: #1f242d;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+.Services .mainup .d2 .btn-d1:hover {
+  border-radius: 1px solid #50dfe9;
+  transition: background-color 0.3s, color 0.3s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: scale(1.1);
+}
+.Services .mainup .d3 {
+  width: 350px;
+  height: 45vh;
+  background-color: #313b4e;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+  border-radius: 40px;
+}
+.Services .mainup .d3:hover {
+  border: 0.2rem solid #50dfe9;
+  transition: background-color 1s, color 1s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: scale(1.1);
+}
+.Services .mainup .d3 .btn-d1 {
+  background-color: #50dfe9;
+  border: none;
+  width: 150px;
+  height: 45px;
+  border-radius: 20px;
+  color: #1f242d;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+.Services .mainup .d3 .btn-d1:hover {
+  border-radius: 1px solid #50dfe9;
+  transition: background-color 0.3s, color 0.3s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: scale(1.1);
+}
+.Services .mainup .d33 {
+  width: 350px;
+  height: 45vh;
+  background-color: #313b4e;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+  border-radius: 40px;
+}
+.Services .mainup .d33:hover {
+  border: 0.2rem solid #50dfe9;
+  transition: background-color 1s, color 1s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: scale(1.1);
+}
+.Services .mainup .d33 .btn-d1 {
+  background-color: #50dfe9;
+  border: none;
+  width: 150px;
+  height: 45px;
+  border-radius: 20px;
+  color: #1f242d;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+.Services .mainup .d33 .btn-d1:hover {
+  border-radius: 1px solid #50dfe9;
+  transition: background-color 0.3s, color 0.3s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: scale(1.1);
+}
+.Services .maindn {
+  display: flex;
+  justify-content: space-evenly;
+}
+.Services .maindn .d4 {
+  width: 600px;
+  height: 30vh;
+  border-radius: 40px;
+  background-color: #313b4e;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+}
+.Services .maindn .d4:hover {
+  border: 0.2rem solid #50dfe9;
+  transition: background-color 1s, color 1s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: scale(1.1);
+}
+.Services .maindn .d4 .btn-d1 {
+  background-color: #50dfe9;
+  border: none;
+  width: 150px;
+  height: 45px;
+  border-radius: 20px;
+  color: #1f242d;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+.Services .maindn .d4 .btn-d1:hover {
+  border-radius: 1px solid #50dfe9;
+  transition: background-color 0.3s, color 0.3s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: scale(1.1);
+}
+.Services .maindn .d5 {
+  width: 600px;
+  height: 30vh;
+  border-radius: 40px;
+  background-color: #313b4e;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+}
+.Services .maindn .d5:hover {
+  border: 0.2rem solid #50dfe9;
+  transition: background-color 1s, color 1s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: scale(1.1);
+}
+.Services .maindn .d5 .btn-d1 {
+  background-color: #50dfe9;
+  border: none;
+  width: 150px;
+  height: 45px;
+  border-radius: 20px;
+  color: #1f242d;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+.Services .maindn .d5 .btn-d1:hover {
+  border-radius: 1px solid #50dfe9;
+  transition: background-color 0.3s, color 0.3s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: scale(1.1);
+}/*# sourceMappingURL=Services.css.map */
