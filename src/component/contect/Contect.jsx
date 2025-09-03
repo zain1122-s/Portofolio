@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import "./context.scss";
 import { FaGithub, FaLinkedin, FaDownload } from "react-icons/fa";
 import Zain from '../../assets/Zain.jpg';
+import CV from '../../assets/cv/White simple Sales Representative Cv Resume (1).pdf';
 
 function Contect() {
   const [isVisible, setIsVisible] = useState(false);
@@ -29,9 +30,8 @@ function Contect() {
   }, []);
 
   const handleDownloadCV = () => {
-    // Create a dummy CV download (you can replace this with actual CV file)
     const link = document.createElement('a');
-    link.href = '#'; // Replace with actual CV file path
+    link.href = CV;
     link.download = 'Shahzain_Alam_CV.pdf';
     link.click();
   };
