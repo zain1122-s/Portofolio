@@ -85,7 +85,7 @@ function Services() {
       images: [proj3_1, proj3_2, proj3_3, proj3_4, proj3_5],
       technologies: ["React", "CSS", "Responsive Design", "UI/UX"],
       liveLink: "#",
-      githubLink: "#"
+      githubLink: "https://global-esquire-three.netlify.app/"
     }
     // },
     // {
@@ -161,7 +161,7 @@ function Services() {
                       </a>
                     )}
                     <a href={project.githubLink} className="project-link github-link" target="_blank" rel="noopener noreferrer">
-                      GitHub
+                      live
                     </a>
                   </div>
                 </div>
