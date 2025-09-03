@@ -98,7 +98,7 @@ function Services() {
       image: prj4_1,
       images: [prj4_1, prj4_2, prj4_3, prj4_4],
       technologies: ["React", "CSS", "JavaScript"],
-      liveLink: "#",
+      liveLink: "https://rickymory.vercel.app/",
       githubLink: "#"
     }
     // },
