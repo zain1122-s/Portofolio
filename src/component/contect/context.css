@@ -3,6 +3,7 @@
   width: 100vw;
   height: 100vh;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   color: white;
@@ -16,7 +17,8 @@
   width: 400px;
   height: 400px;
   border-radius: 50%;
-  border: 5px solid #50dfe9;
+  border: 3px solid #50dfe9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(22, 235, 250, 0.5);
   background-size: contain;
   background-color: 0;
 }
@@ -50,6 +52,7 @@
   color: #1f242d;
   font-size: 1.1rem;
   font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(11, 239, 255, 0.5);
 }
 .main-b .butn:hover {
   background-color: #50dfe9;

@@ -1,0 +1,47 @@
+.intract {
+  background-color: #313b4e;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.intract .form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.intract .form input {
+  width: 700px;
+  padding: 23px;
+  border: none;
+  border-radius: 5px;
+  background-color: #212835;
+  outline: none;
+  color: white;
+}
+.intract .form .message {
+  width: 700px;
+  padding: 100px 10px;
+}
+.intract .form .bttn {
+  width: 200px;
+  height: 50px;
+  border: none;
+  border-radius: 30px;
+  background-color: #45e6f1;
+  color: #1f242d;
+  font-weight: bolder;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(22, 235, 250, 0.5);
+  transition: box-shadow 0.3s ease-in-out;
+}
+.intract .form .bttn:hover {
+  background-color: #50dfe9;
+  color: #1f242d;
+  transition: background-color 0.3s, color 0.3s;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 0 12px 40px rgba(69, 230, 241, 0.7);
+  transform: scale(1.1);
+}/*# sourceMappingURL=Intract.css.map */

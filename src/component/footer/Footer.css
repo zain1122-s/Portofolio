@@ -1,0 +1,10 @@
+.Footer {
+  width: 100vw;
+  padding: 20px;
+  background-color: #1f242d;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+}/*# sourceMappingURL=Footer.css.map */
