@@ -14,6 +14,10 @@ import proj3_2 from "../../assets/prj3/image2.jpg";
 import proj3_3 from "../../assets/prj3/image3.jpg";
 import proj3_4 from "../../assets/prj3/image4.jpg";
 import proj3_5 from "../../assets/prj3/image5.jpg";
+import prj4_1 from "../../assets/prj4/photo1.jpg";
+import prj4_2 from "../../assets/prj4/photo2.jpg";
+import prj4_3 from "../../assets/prj4/photo3.jpg";
+import prj4_4 from "../../assets/prj4/photo4.jpg";
 
 function Services() {
   const [modalOpen, setModalOpen] = useState(false);
@@ -86,6 +90,16 @@ function Services() {
       technologies: ["React", "CSS", "Responsive Design", "UI/UX"],
       liveLink: "#",
       githubLink: "https://global-esquire-three.netlify.app/"
+    },
+    {
+      id: 4,
+      title: "Project 4",
+      description: "A new project showcasing additional skills and technologies.",
+      image: prj4_1,
+      images: [prj4_1, prj4_2, prj4_3, prj4_4],
+      technologies: ["React", "CSS", "JavaScript"],
+      liveLink: "#",
+      githubLink: "#"
     }
     // },
     // {
