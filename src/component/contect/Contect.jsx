@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import "./context.scss";
 import { FaGithub, FaLinkedin, FaDownload } from "react-icons/fa";
 import Zain from '../../assets/Zain.jpg';
-import CV from '../../assets/cv/White simple Sales Representative Cv Resume (1).pdf';
+import CV from '../../assets/cv/my Cv';
 
 function Contect() {
   const [isVisible, setIsVisible] = useState(false);
