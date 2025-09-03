@@ -121,7 +121,7 @@ function Services() {
   ];
 
   return (
-    <div className="services">
+    <div id="services" className="services">
       <div className="services-container">
         <div className="services-header">
           <h1 className="services-title">
