@@ -98,8 +98,10 @@ function Intreact() {
       from_name: formData.name,
       from_email: formData.email,
       to_name: 'Shahzain Alam',
+      to_email: 'shahzaina354@gmail.com',
       subject: formData.subject,
-      message: formData.message
+      message: formData.message,
+      reply_to: formData.email
     };
 
     try {
@@ -120,7 +122,7 @@ function Intreact() {
       }, 5000);
 
     } catch (error) {
-      console.log('Error sending email:', error);
+      console.error('Error sending email:', error);
       setSubmitStatus('error');
 
       // Reset error message after 5 seconds

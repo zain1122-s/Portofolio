@@ -78,9 +78,9 @@ function Services() {
     },
    
     {
-      id: 4,
-      title: "Third Project Gallery",
-      description: "A comprehensive showcase of the third project featuring multiple perspectives and detailed views of the implementation.",
+      id: 3,
+      title: "Global Esquire Law Firm: Africa Legal Advisory",
+      description: "Legal expertise for business, residency, and investment in Africa. Navigate visas, investments, and relocation with confidence through our tailored courses and advisory.",
       image: proj3_1,
       images: [proj3_1, proj3_2, proj3_3, proj3_4, proj3_5],
       technologies: ["React", "CSS", "Responsive Design", "UI/UX"],
